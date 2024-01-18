@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "./Pre";
 import Home from "./Home/Home";
 import NavBar from "./NavBar";
+import About from "./About/About";
 import {
   BrowserRouter as Router,
   Route,
@@ -32,6 +33,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
