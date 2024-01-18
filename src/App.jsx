@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import Preloader from "../src/components/Pre";
-// import Navbar from "./components/Navbar";
+import Preloader from "./Pre";
 import Home from "./Home/Home";
 import NavBar from "./NavBar";
 import {
@@ -9,7 +8,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-// import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./ScrollToTop";
 import "./index.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,10 +26,10 @@ function App() {
 
   return (
     <Router>
-      {/* <Preloader load={load} /> */}
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavBar />
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />
