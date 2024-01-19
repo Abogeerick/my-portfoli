@@ -3,6 +3,7 @@ import Preloader from "./Pre";
 import Home from "./Home/Home";
 import NavBar from "./NavBar";
 import About from "./About/About";
+import Projects from "./Projects/Projects";
 import {
   BrowserRouter as Router,
   Route,
@@ -33,6 +34,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
