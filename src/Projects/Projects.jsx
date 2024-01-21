@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="House Plans"
+              description="HousePlans is an interactive, React-based web application dedicated to showcasing a diverse range of house plans. The application is designed with categories like Trending, New, Featured, and Luxury Houseplans, catering to various architectural tastes and preferences. Each house plan is presented as an interactive card, offering a glimpse into the plan's key details. A click on any card opens a detailed modal view, providing an in-depth look at the house plan. The design of HousePlans is responsive, ensuring a seamless and engaging user experience across different devices."
+              ghLink="https://github.com/Abogeerick/housing-project.git"
+              demoLink="https://project-app-dixx.onrender.com/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Trade"
+              description="Trade is an innovative shopping platform designed to provide a seamless and intuitive online shopping experience. Equipped with a suite of user-friendly features, Trade offers a convenient way for users to browse, search, and purchase products. Key functionalities include browsing through a wide range of products, utilizing a powerful search bar for specific item queries, and easily adding products to both a wishlist and shopping cart. Users can also effortlessly proceed to checkout for a smooth transaction process."
+              ghLink="https://github.com/Bisinle/Trade.git"
+              demoLink="https://traded.netlify.app/"
             />
           </Col>
 
@@ -47,14 +47,14 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="News Sources"
+              description="News Sources is a comprehensive and user-friendly web application dedicated to streamlining the process of accessing news online. In today's fast-paced world, where numerous news sources bombard users with information, this app serves as a central hub for exploring and reading news from various categories. It effectively addresses the challenge of browsing multiple websites for news updates, saving time and effort for its users."
+              ghLink="https://github.com/eugenemrg/News-Sources.git"
+              demoLink="https://eugenemrg.github.io/News-Sources/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,15 +63,15 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Inventory Management CLI"
+              description="This is an interactive Command-Line Interface (CLI) application for managing an inventory system. It allows you to perform various operations such as adding, viewing, and deleting products, categories, suppliers, and transactions in your inventory."
+              ghLink="https://github.com/Abogeerick/CLI_project.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Tour-Agency-Project"
+              description="This is a website that showcases various travel destinations and packages offered by Aboge Travel Agencies. Users can explore different locations, view package details, and shortlist packages for further consideration. The website aims to provide an immersive experience and inspire users to plan their next travel adventure."
+              ghLink="https://github.com/Abogeerick/Tour-Agency-Project.git"
+              demoLink="https://abogeerick.github.io/Tour-Agency-Project/"    
             />
           </Col>
         </Row>
